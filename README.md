@@ -3,6 +3,7 @@ https://nodejs.org/en/download/
 
 ## Install Angular CLI
 https://cli.angular.io/
+- `npm install -g @angular/cli`
 
 ## Install MongoDB: 
 - MongoDocs: https://docs.mongodb.com/manual/tutorial/install-mongodb-on-windows/
