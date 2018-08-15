@@ -7,6 +7,8 @@ https://cli.angular.io/
 
 ## Install Ionic 3 / Cordova
 https://ionicframework.com/getting-started#cli
+- `npm install -g ionic`
+- `npm install -g cordova`
 
 ## Install MongoDB: 
 - MongoDocs: https://docs.mongodb.com/manual/tutorial/install-mongodb-on-windows/
