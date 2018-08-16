@@ -21,6 +21,7 @@
 - Add the bin folder to the PATH variable: "D:\Arquivos de Programas\MongoDB\Server\4.0\bin";
 - Enter the bin directory;
 - Created a folder inside "D:\Arquivos de Programas\MongoDB\Server\4.0\realdata\db"
+- Gave permission of Full Access Control to the directory created for all users of the computer;
 - Run: ```D:\Arquivos de Programas\MongoDB\Server\4.0\bin\mongod.exe" --dbpath="D:\Arquivos de Programas\MongoDB\Server\4.0\realdata\db"```
 - Or simple run: ```mongod --dbpath="D:\Arquivos de Programas\MongoDB\Server\4.0\realdata\db"```
 - Port 27017 is going to be ready and listening
