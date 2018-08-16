@@ -17,7 +17,10 @@
 
 - Points all the paths on the drive you want to install: Main installation, Data, Logs
 - Mongo normally creates a folder called \data\db\ on the driver it was installed by default, for example: D:\data\db
-- Run `mongod` and port 27017 is going to be ready and listening
+
+- Enter the bin directory;
+- Run ```D:\Arquivos de Programas\MongoDB\Server\4.0\bin\mongod.exe" --dbpath="D:\Arquivos de Programas\MongoDB\Server\4.0\data\db"```
+- Port 27017 is going to be ready and listening
 - Add to the Enviroment Variable PATH
 
 ## Links
