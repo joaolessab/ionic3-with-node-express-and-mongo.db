@@ -14,14 +14,15 @@
 - Mongo Download - [Community Server](https://www.mongodb.com/download-center?jmp=nav#community)
 - [Installation Instructions](https://docs.mongodb.org/manual/tutorial/install-mongodb-on-windows?_ga=2.77080848.422571604.1534379806-151096025.1534211352)
 - MongoDocs: https://docs.mongodb.com/manual/tutorial/install-mongodb-on-windows/
-
-- Points all the paths on the drive you want to install: Main installation, Data, Logs
 - Mongo normally creates a folder called \data\db\ on the driver it was installed by default, for example: D:\data\db
 
+# Steps after MSI installer
+- Points all the paths on the drive you want to install: Main installation, Data, Logs
+- Add the bin folder to the PATH variable: "D:\Arquivos de Programas\MongoDB\Server\4.0\bin";
 - Enter the bin directory;
-- Run ```D:\Arquivos de Programas\MongoDB\Server\4.0\bin\mongod.exe" --dbpath="D:\Arquivos de Programas\MongoDB\Server\4.0\data\db"```
+- Created a folder inside "D:\Arquivos de Programas\MongoDB\Server\4.0\realdata\db"
+- Run ```D:\Arquivos de Programas\MongoDB\Server\4.0\bin\mongod.exe" --dbpath="D:\Arquivos de Programas\MongoDB\Server\4.0\realdata\db"```
 - Port 27017 is going to be ready and listening
-- Add to the Enviroment Variable PATH
 
 ## Links
 - Ionic Creator: https://creator.ionic.io/app/dashboard/projects 
