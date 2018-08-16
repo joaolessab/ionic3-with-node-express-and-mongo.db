@@ -1,12 +1,12 @@
 ## Install NodeJS
-- [Official Page](https://nodejs.org/en/download/)
+[Official Page](https://nodejs.org/en/download/)
 
 ## Install Angular CLI
 [Official Page](https://cli.angular.io/)
 - `npm install -g @angular/cli`
 
 ## Install Ionic 3 / Cordova
-- [Official Page](https://ionicframework.com/getting-started#cli)
+[Official Page](https://ionicframework.com/getting-started#cli)
 - `npm install -g ionic`
 - `npm install -g cordova`
 
