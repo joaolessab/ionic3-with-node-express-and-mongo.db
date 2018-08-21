@@ -28,6 +28,10 @@
 ## Install VS CODE
 [Official Page](https://code.visualstudio.com/download)
 
+## Running Ionic
+```ionic serve -l```
+- Go to: http://localhost:8200/
+
 ## Links
 - Ionic Creator: https://creator.ionic.io/app/dashboard/projects 
 - Tutorials: https://ionicframework.com/docs/intro/tutorial/
