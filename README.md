@@ -16,7 +16,7 @@
 - MongoDocs: https://docs.mongodb.com/manual/tutorial/install-mongodb-on-windows/
 - Mongo normally creates a folder called \data\db\ on the driver it was installed by default, for example: D:\data\db
 
-# Steps after MSI installer
+## Steps after MongoDB MSI installer
 - Points all the paths on the drive you want to install: Main installation, Data, Logs
 - Add the bin folder to the PATH variable: "D:\Arquivos de Programas\MongoDB\Server\4.0\bin";
 - Enter the bin directory;
