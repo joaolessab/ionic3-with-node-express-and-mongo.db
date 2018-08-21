@@ -25,6 +25,9 @@
 - Or simple run: ```mongod --dbpath="D:\Arquivos de Programas\MongoDB\Server\4.0\realdata\db"```
 - Port 27017 is going to be ready and listening
 
+## Install VS CODE
+[Official Page](https://code.visualstudio.com/download)
+
 ## Links
 - Ionic Creator: https://creator.ionic.io/app/dashboard/projects 
 - Tutorials: https://ionicframework.com/docs/intro/tutorial/
