@@ -35,3 +35,8 @@
 ## Links
 - Ionic Creator: https://creator.ionic.io/app/dashboard/projects 
 - Tutorials: https://ionicframework.com/docs/intro/tutorial/
+
+## Running Project
+- Run on Windows CMD: ```D:\Arquivos de Programas\MongoDB\Server\4.0\bin\mongod.exe" --dbpath="D:\Arquivos de Programas\MongoDB\Server\4.0\realdata\db"```
+- Run on VS Code Terminal: ```ionic serve -l```
+- Go to: http://localhost:8200/
