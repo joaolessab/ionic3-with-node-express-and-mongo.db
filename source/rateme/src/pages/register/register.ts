@@ -15,6 +15,10 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 })
 export class RegisterPage {
 
+  fullname: string;
+  email: string;
+  password: string;
+  
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 
@@ -22,4 +26,7 @@ export class RegisterPage {
     console.log('ionViewDidLoad RegisterPage');
   }
 
+  goBackToLoginPage(){
+    this.navCtrl.setRoot("LoginPage");
+  }
 }

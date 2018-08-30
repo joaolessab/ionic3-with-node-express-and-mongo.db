@@ -25,5 +25,4 @@ export class LoginPage {
     //Lazy loading on string
     this.navCtrl.push("RegisterPage");
   }
-
 }
