@@ -43,3 +43,4 @@
 
 ## Configuring Server
 - Inside the folder rateapi, type: ```npm install express body-parser mongoose express-session cookie-parser connect-mongo --save```
+- After filling the server.js, open the "rateapi" folder and type ```node server```
