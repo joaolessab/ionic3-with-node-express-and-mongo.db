@@ -42,5 +42,8 @@
 - Go to: http://localhost:8200/
 
 ## Configuring Server
+- On the package.json of the rateapi (Node Project), we need to change the "main" tag and point to the .js file with the configurations of the server;
+- We create a new file called "server.js" on the rateapi project;
 - Inside the folder rateapi, type: ```npm install express body-parser mongoose express-session cookie-parser connect-mongo --save```
-- After filling the server.js, open the "rateapi" folder and type ```node server```
+- After filling the server.js, open the "rateapi" folder on another terminal and type ```node server``` to run the Express;
+- An error might be thrown because we need the MongoDB Server to be running;
