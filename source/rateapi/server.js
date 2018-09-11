@@ -8,7 +8,7 @@ const MongoStore = require('connect-mongo')(session);
 const app = express();
 
 mongoose.Promise = global.Promise;
-mongoose.connect('mongodb://localhost/ratepp');
+mongoose.connect('mongodb://localhost/rateapp');
 
 app.use(express.static('public'));
 app.use(cookieParser());
@@ -21,6 +21,7 @@ app.use(session({
     saveUninitialized: false,
     store: new MongoStore({mongooseConnection: mongoose.connection})
 }));
+
 
 app.listen(3000, () => {
     console.log('Server running on port 3000');
