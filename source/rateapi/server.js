@@ -33,7 +33,7 @@ app.use(session({
     store: new MongoStore({mongooseConnection: mongoose.connection})
 }));
 
-//Defining file of route
+//Defining Route File that is going to be used for this Specific Route (User)
 const user = require('./routes/userRoute');
 app.use('/api', user);
 
