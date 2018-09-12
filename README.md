@@ -56,6 +56,7 @@
 # Installing Passport
 - Enter the rateapi directory via command line;
 - Type ```npm install passport passport-local --save```;
+- Add on the server.js file some configs (check the commit called "Passport Server Use");
  
 # Run Everything
 ## Terminal 1:
