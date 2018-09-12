@@ -5,6 +5,7 @@ const mongoose = require('mongoose');
 const session = require('express-session');
 const MongoStore = require('connect-mongo')(session);
 const cors = require('cors');
+const passport = require('passport');
 
 const app = express();
 
@@ -32,6 +33,9 @@ app.use(session({
     saveUninitialized: false,
     store: new MongoStore({mongooseConnection: mongoose.connection})
 }));
+
+app.use(passport.initialize());
+app.use(passport.session());
 
 //Defining Route File that is going to be used for this Specific Route (User)
 const user = require('./routes/userRoute');
