@@ -44,6 +44,11 @@
 - An error might be thrown because we need the MongoDB Server to be running;
 - Run ```npm i -g nodemon``` inside the rateapi folder;
 
+# Installing CORS
+- Enter the rateapi directory via command line;
+- Type ```npm install cors --save```;
+- Add on the server.js file some configs (check the commit called "CORS Setup");
+ 
 # Run Everything
 ## Terminal 1:
 1. Enter the Mongo Bin directory "D:\Arquivos de Programas\MongoDB\Server\4.0\bin";
