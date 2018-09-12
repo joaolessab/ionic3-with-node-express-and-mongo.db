@@ -52,6 +52,10 @@
 # Installing Password Bcrypt
 - Enter the rateapi directory via command line;
 - Type ```npm install bcrypt-nodejs --save```;
+
+# Installing Passport
+- Enter the rateapi directory via command line;
+- Type ```npm install passport passport-local --save```;
  
 # Run Everything
 ## Terminal 1:
