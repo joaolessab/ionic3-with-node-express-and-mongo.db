@@ -50,15 +50,15 @@
 - Run ```npm i -g nodemon``` inside the rateapi folder;
 
 ## Run Everything
-- Terminal 1:
+# Terminal 1:
 1. Enter the Mongo Bin directory "D:\Arquivos de Programas\MongoDB\Server\4.0\bin";
 2. Run: ```mongod --dbpath="D:\Arquivos de Programas\MongoDB\Server\4.0\realdata\db"```;
 
-- Terminal 2:
+# Terminal 2:
 1. Enter the rateapi directory;
 2. Run: ```nodemon server```;
 
-- Terminal 3:
+# Terminal 3:
 1. Enter the rateme (app) directory;
 2. Run: ```ionic serve -l```;
 3. Go to: http://localhost:8200/
