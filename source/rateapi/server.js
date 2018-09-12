@@ -22,6 +22,10 @@ app.use(session({
     store: new MongoStore({mongooseConnection: mongoose.connection})
 }));
 
+//Defining file of route
+const user = require('.routes/userRoute');
+app.use('/api', user);
+
 
 app.listen(3000, () => {
     console.log('Server running on port 3000');
