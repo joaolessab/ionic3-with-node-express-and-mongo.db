@@ -23,7 +23,7 @@ app.use(session({
 }));
 
 //Defining file of route
-const user = require('.routes/userRoute');
+const user = require('./routes/userRoute');
 app.use('/api', user);
 
 
