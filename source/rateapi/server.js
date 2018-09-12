@@ -8,7 +8,7 @@ const MongoStore = require('connect-mongo')(session);
 const app = express();
 
 mongoose.Promise = global.Promise;
-mongoose.connect('mongodb://localhost/rateapp');
+mongoose.connect('mongodb://localhost/rateapp', { useNewUrlParser: true });
 
 app.use(express.static('public'));
 app.use(cookieParser());
