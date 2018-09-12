@@ -48,6 +48,10 @@
 - Enter the rateapi directory via command line;
 - Type ```npm install cors --save```;
 - Add on the server.js file some configs (check the commit called "CORS Setup");
+
+# Installing Password Bcrypt
+- Enter the rateapi directory via command line;
+- Type ```npm install bcrypt-nodejs --save```;
  
 # Run Everything
 ## Terminal 1:
