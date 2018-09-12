@@ -47,3 +47,4 @@
 - Inside the folder rateapi, type: ```npm install express body-parser mongoose express-session cookie-parser connect-mongo --save```
 - After filling the server.js, open the "rateapi" folder on another terminal and type ```node server``` to run the Express;
 - An error might be thrown because we need the MongoDB Server to be running;
+- Run ```npm i -g nodemon``` inside the rateapi folder;
