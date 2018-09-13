@@ -42,7 +42,7 @@ const user = require('./routes/userRoute');
 app.use('/api', user);
 
 //Passwords with Passport
-const user = require('./passport/passport-local');
+require('./passport/passport-local');
 
 app.listen(3000, () => {
     console.log('Server running on port 3000');
