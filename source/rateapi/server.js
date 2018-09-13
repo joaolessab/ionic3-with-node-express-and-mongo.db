@@ -37,10 +37,12 @@ app.use(session({
 app.use(passport.initialize());
 app.use(passport.session());
 
-//Defining Route File that is going to be used for this Specific Route (User)
+//User Route
 const user = require('./routes/userRoute');
 app.use('/api', user);
 
+//Passwords with Passport
+const user = require('./passport/passport-local');
 
 app.listen(3000, () => {
     console.log('Server running on port 3000');
