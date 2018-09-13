@@ -2,6 +2,7 @@ const User = require('../models/user');
 const passport = require('passport');
 const LocalStrategy = require('passport').Strategy;
 
+//SignUp Method
 passport.use('local-signup', new LocalStrategy({
     usernameField: 'email',
     passwordField: 'password',
@@ -33,5 +34,36 @@ passport.use('local-signup', new LocalStrategy({
         newUser.save((err) => {
             return done(null, newUser)
         });
+    });
+}));
+
+//Local Method
+passport.use('local-login', new LocalStrategy({
+    usernameField: 'email',
+    passwordField: 'password',
+    passReqToCallBack: true
+}, (req, email, password, done) => {
+    //Simple verification
+    User.findOne({'email': email}, (err, user) =>{
+        if(err){
+            return done(err);
+        }
+        //If user is not found
+        if(!user){
+            return done(null, false, 'User not found');
+        }
+
+        //If password is smaller than 5
+        if (password.length < 5){
+            return done(null, false, 'Password must not be less than 5 characteres');
+        }
+
+        //If password is smaller than 5
+        if (!user.checkPassword(req.body.password)){
+            return done(null, false, 'Password is incorrect');
+        }
+        
+        //If there is no error, we return the User Object
+        return done(null, user);
     });
 }));
